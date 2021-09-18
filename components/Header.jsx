@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "next/image";
 import SearchBar from "./SearchBar"
 const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media(max-width:${props=>props.theme.breakpoint.tablet})
+    {
+        margin-bottom:180px;
+    }
+    
 
    
 `

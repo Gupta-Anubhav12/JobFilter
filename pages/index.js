@@ -8,8 +8,7 @@ import styled from "styled-components";
 
 const JobWrapper = styled.div`
   display:block;
-  margin-top:25px;
-  
+  margin-top:45px; 
 `
 
 export default function Home() {
@@ -72,7 +71,7 @@ export default function Home() {
         jobArray.push(job);
       }
     })
-    console.log(jobArray)
+    // console.log(jobArray)
     setDisplayJobs(jobArray)
   },[selected,jobMap])  
 

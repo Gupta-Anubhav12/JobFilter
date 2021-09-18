@@ -112,7 +112,7 @@ const StyledDiv = styled.div`
     border-radius: 5px;
     display: flex;
     max-width:1110px;
-    margin:auto;
+    margin: 25px auto;
     justify-content:space-between;
     align-items:center;
     :hover { 
