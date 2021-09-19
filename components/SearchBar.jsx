@@ -129,7 +129,7 @@ export default function SearchBar() {
             closeMenuOnSelect={false}
             components={{ ClearIndicator, MultiValueRemove }}
             styles={customStyles}
-            // defaultValue={[colourOptions[4], colourOptions[5]]}
+            // defaultValue={[...options[]]}
             isMulti
             onChange={setSelected}
             options={options}
